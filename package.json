@@ -1,0 +1,58 @@
+{
+  "name": "react-best-buy-app-2021",
+  "version": "0.1.0",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "jest-expo": "^42.1.0",
+    "react-test-renderer": "^17.0.2"
+  },
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "jest",
+    "reset": "watchman watch-del-all && rm -rf node_modules && yarn && yarn && yarn run start"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.5",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/drawer": "^6.1.6",
+    "@react-navigation/native": "^6.0.4",
+    "@react-navigation/stack": "^6.0.9",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.22.0",
+    "expo": "^42.0.4",
+    "expo-facebook": "^11.3.1",
+    "expo-font": "^9.2.1",
+    "expo-google-app-auth": "^8.2.2",
+    "firebase": "^9.1.2",
+    "lottie-react-native": "^4.1.3",
+    "native-base": "^3.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-placeholder": "^1.0.14",
+    "react-native-loader": "^1.3.1",
+    "react-native-reanimated": "^2.2.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-search-header": "^0.3.5",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-redux": "^7.2.5",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^1.0.1"
+  }
+}
